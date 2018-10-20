@@ -1,0 +1,42 @@
+{
+  "name": "tiny-exchange",
+  "version": "1.0.0",
+  "description": "Tiny Exchange is sandbox for creating bots and user interfaces for exchanges",
+  "main": "index.js",
+  "scripts": {
+    "mocha": "mocha $1",
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rumkin/tex.git"
+  },
+  "keywords": [
+    "exchange",
+    "sandbox",
+    "test"
+  ],
+  "author": "Rumkin <dev@rumk.in> (https://rumk.in/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rumkin/tex/issues"
+  },
+  "homepage": "https://github.com/rumkin/tex#readme",
+  "dependencies": {
+    "coa": "^2.0.1",
+    "error3": "^1.7.2",
+    "eventemitter3": "^3.1.0",
+    "fast-memoize": "^2.5.1",
+    "lodash.kebabcase": "^4.1.1",
+    "lodash.lowerfirst": "^4.3.1",
+    "lodash.merge": "^4.6.1",
+    "sift": "^6.0.0",
+    "toposort": "^2.0.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.3",
+    "typescript": "^3.1.1"
+  }
+}
